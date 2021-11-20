@@ -1,0 +1,55 @@
+/* #3D5A80,#98C1D9,#E0FBFC,#EE6C4D,#293241 */
+
+
+
+.App {
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.body {
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background: linear-gradient(
+        360deg,
+        black,
+        #57DDF3,
+        #14C2DD,
+        #A1F7A1,
+        #C7F954,
+        black
+    ); */
+    /* background: #F0F2F0;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to top right,#0020af, #000C40, #9d9e9d);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #0020af, #000C40, #959695); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right top,#293241,#4179b1,#98C1D9,#98C1D9,#98C1D9,#98C1D9,#4179b1,#293241);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#293241,#4179b1,#98C1D9,#98C1D9,#98C1D9,#98C1D9,#4179b1,#293241); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: 400% 400%;
+    animation: gradient 6s ease-in-out infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
