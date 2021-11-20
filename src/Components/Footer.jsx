@@ -73,7 +73,7 @@ export default function Footer() {
             <div>
                 <a
                     className="linkedin"
-                    href="https://www.linkedin.com/in/sushanthps/"
+                    href="https://www.linkedin.com/in/vishalrathod01/"
                     target="_blank"
                     rel="noreferrer"
                     title="Linkedin"
@@ -82,7 +82,7 @@ export default function Footer() {
                 </a>
                 <a
                     className="github"
-                    href="https://github.com/SushanthPS"
+                    href="https://github.com/Vishal-080"
                     target="_blank"
                     rel="noreferrer"
                     title="Github"
@@ -91,14 +91,14 @@ export default function Footer() {
                 </a>
                 <a
                     className="email"
-                    href="mailto: getsushanthps@gmail.com"
+                    href="mailto:vrathod591@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     title="Email"
                 >
                     <MdEmail />
                 </a>
-                <a className="phone" href="tel:+919066603303" title="Phone">
+                <a className="phone" href="tel:+91-7987487606" title="Phone">
                     <BsTelephoneFill />
                 </a>
             </div>
